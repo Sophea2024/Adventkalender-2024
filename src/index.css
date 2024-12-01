@@ -1,0 +1,45 @@
+body {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  background-color: white;
+}
+
+.container {
+  width: 1040px;
+  text-align: center;
+  border-color: 2px solid gray;
+  background-image: url("weitnach.jpg");
+  background-color: #cccccc;
+}
+
+.row {
+  border-color: gray;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; 
+  text-align: center;
+}
+
+.window {
+  background-color: rgba(241, 206, 206, 0.3);
+  width: 120px;
+  height: 120px;
+  margin: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 32px;
+  font-family: sans-serif;
+  font-weight: bold;
+  padding: 12px;
+}
+
+.window:hover {
+  background-color: rgb(1241, 206, 206);
+  transform: scale(1.2);
+}
+
+@media screen and (max-width: 600px) {
+  
+}
